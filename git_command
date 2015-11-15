@@ -1,0 +1,6 @@
+git 基本命令
+
+1. git status //查看改动过的文件
+2. git add filename //添加文件到stage 
+3. git commit -m "提交说明" //提交文件到本地的master
+4. git push  //把本地master的修改推送到github
