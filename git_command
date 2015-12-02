@@ -5,3 +5,8 @@ github 网址： https://github.com/
 2. git add filename //添加文件到stage 
 3. git commit -m "提交说明" //提交文件到本地的master
 4. git push  //把本地master的修改推送到github
+
+保存当前修改的文件，切换分支时不提交；
+1.git stash save 文件名 //将改动过的文件，命名后，进行保存；
+2.git stash list        //查看保存过的文件列表
+3.git stash pop 文件名对应的编号  //恢复保存的文件
